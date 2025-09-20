@@ -1,0 +1,1 @@
+A simple and fun Tic Tao Toe game built for practice and entertainment. Play against friends or test your logic skills. Designed with clean code, easy-to-understand structure, and interactive gameplay. Perfect for beginners exploring game development or learning programming fundamentals while enjoying a timeless classic.
