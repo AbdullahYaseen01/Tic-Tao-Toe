@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div id="msg-container" class="hide">
+    <p id="msg">Winner</p>
+    <button id="new-btn">New Game</button>
+  </div>
+
+  <main>
+    <h1>Tic Tac Toe</h1>
+
+    <!-- Scoreboard -->
+    <div id="scoreboard">
+      <p>Player X: <span id="scoreX">0</span></p>
+      <p>Player O: <span id="scoreO">0</span></p>
+      <p>Draws: <span id="scoreDraw">0</span></p>
+    </div>
+
+    <!-- Mode Selector -->
+    <div id="mode-selector">
+      <label>
+        <input type="radio" name="mode" value="pvp" checked>
+        2 Players
+      </label>
+      <label>
+        <input type="radio" name="mode" value="ai">
+        Vs Computer
+      </label>
+    </div>
+
+    <div class="container">
+      <div class="game">
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+      </div>
+    </div>
+
+    <p id="turn-indicator">Turn: Player O</p>
+    <button id="reset-btn">Reset Game</button>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
